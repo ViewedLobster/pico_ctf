@@ -1,0 +1,27 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Nov 27 23:22:23 2016
+Invocation: foremost -t all -i disk.img -o diskdir -v 
+Output directory: /home/magnus/Documents/pico/snapcat/diskdir
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: disk.img
+Start: Sun Nov 27 23:22:23 2016
+Length: 5 MB (5242880 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000057.jpg 	      89 KB 	      29184 	 
+1:	00000237.jpg 	      13 KB 	     121344 	 
+2:	00000265.jpg 	     172 KB 	     135680 	 
+3:	00000613.jpg 	      34 KB 	     313856 	 
+4:	00000685.jpg 	      56 KB 	     350720 	 
+Finish: Sun Nov 27 23:22:23 2016
+
+5 FILES EXTRACTED
+	
+jpg:= 5
+------------------------------------------------------------------
+
+Foremost finished at Sun Nov 27 23:22:23 2016
