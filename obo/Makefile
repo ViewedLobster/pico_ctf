@@ -1,2 +1,2 @@
 (all):
-	gcc -m32 -o obo obo.c
+	gcc -g -o obo obo.c

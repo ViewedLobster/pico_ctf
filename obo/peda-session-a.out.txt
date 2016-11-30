@@ -1,0 +1,6 @@
+break /home/magnus/Documents/pico_ctf/obo/obo.c:49
+break /home/magnus/Documents/pico_ctf/obo/obo.c:77
+break /home/magnus/Documents/pico_ctf/obo/obo.c:78
+break /home/magnus/Documents/pico_ctf/obo/obo.c:84
+break /home/magnus/Documents/pico_ctf/obo/obo.c:79
+

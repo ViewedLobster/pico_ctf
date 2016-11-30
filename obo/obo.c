@@ -27,8 +27,7 @@ void generate_hex_table(void) {
   }
 
   // I don't know why, but I was getting errors, and this fixes it.
-  //hex_table[0] = 0;
-
+  hex_table[0] = 0;
 }
 
 int read_password(FILE *file, char *password, size_t n) {
