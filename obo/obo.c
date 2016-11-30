@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-const char *password_file_path = "/home/magnus/Documents/pico_ctf/obo/password.txt";
+const char *password_file_path = "/home/magnus/Documents/pico/obo/password.txt";
 
 int hex_table[256];
 
@@ -65,6 +65,7 @@ int main(int argc, char **argv) {
   printf("New password: ");
   fflush(stdout);
   read_password(stdin, new_password, sizeof(new_password));
+  printf("%u", strlen(new_password));
   for (i = 0; i <= strlen(new_password); ++i) {
     int index = hex_table[(unsigned char) new_password[i]];
     if (index == -1) {
