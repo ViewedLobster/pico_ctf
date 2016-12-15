@@ -34,7 +34,6 @@ def count(n,m,msg=""):
   for i in xrange(0,spin_for,m/nspots+1):
     speed = 1.0/((spin_for-i)/(m/nspots+1)+1)
     printc(clock(1+i+n-spin_for,m),msg)
-    time.sleep(speed)
   if m/nspots+1 > 2:
     for j in xrange(i,spin_for,max((spin_for-i)/50,1)):
       printc(clock(1+j+n-spin_for,m),msg)
@@ -46,7 +45,6 @@ def powmod(n,p,m,msg=""):
   for i in xrange(max(0,p-100),p+1):
     speed = 1.0/math.sqrt(1+p-i)
     printc(clock(pow(n,i,m),m),msg)
-    time.sleep(speed)
   return pow(n,p,m)
 
 
@@ -82,12 +80,12 @@ for (r,m) in secretz:
   else:
     print
     print "%d %% %d == %d... GOOD"%(num,m,r)
-    time.sleep(2)
+    time.sleep(1)
     print '\033[2A'
     print " "*90
 
 print "You have the first part, but how about this:"
-time.sleep(2)
+time.sleep(1)
 print '\033[2J'
 
 if powmod(num,num2,200009*160009,"%d ^ %d %% %d"%(num,num2,200009*160009)) != 1:
